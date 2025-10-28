@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Your Aura</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .privacy-content {
+            max-width: 800px;
+            margin: 4rem auto;
+            padding: 2rem;
+            line-height: 1.8;
+        }
+        .privacy-content h1 {
+            color: #2196F3;
+            margin-bottom: 1rem;
+        }
+        .privacy-content h2 {
+            color: #333;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+        .privacy-content h3 {
+            color: #555;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .privacy-content ul {
+            margin-left: 2rem;
+        }
+        .privacy-content li {
+            margin-bottom: 0.5rem;
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: #2196F3;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="privacy-content">
+        <a href="index.html" class="back-link">← Back to Home</a>
+        
+        <h1>Privacy Policy</h1>
+        <p><strong>Last Updated:</strong> October 27, 2025</p>
+        <p><strong>Effective Date:</strong> October 27, 2025</p>
+
+        <h2>1. Introduction</h2>
+        <p>Your Aura ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application and related services (collectively, the "Service").</p>
+        <p><strong>Please read this privacy policy carefully.</strong> If you do not agree with the terms of this privacy policy, please do not access the Service.</p>
+
+        <h2>2. Information We Collect</h2>
+
+        <h3>2.1 Information You Provide Directly</h3>
+        <ul>
+            <li><strong>Account Information:</strong> Email address, name, password (encrypted)</li>
+            <li><strong>Quiz Responses:</strong> Your answers to the 7-question wellness archetype quiz</li>
+            <li><strong>Daily Check-ins:</strong> Self-reported mood, energy, and stress levels (1-10 scales)</li>
+            <li><strong>Chatbot Conversations:</strong> Messages you send to our AI chatbot</li>
+            <li><strong>Preferences:</strong> Wellness goals, notification settings, language preference</li>
+            <li><strong>Payment Information:</strong> Processed by Stripe (we do not store full credit card numbers)</li>
+        </ul>
+
+        <h3>2.2 Information Collected Automatically</h3>
+        <ul>
+            <li><strong>Usage Data:</strong> Which features you use, time spent in app, recommendations completed</li>
+            <li><strong>Device Information:</strong> Device type, operating system, app version</li>
+            <li><strong>Analytics:</strong> Aggregated, anonymized usage patterns via Firebase Analytics</li>
+        </ul>
+
+        <h3>2.3 Information We Do NOT Collect</h3>
+        <ul>
+            <li>❌ We do NOT access your camera or photos (except for AR yoga, processed locally)</li>
+            <li>❌ We do NOT access your contacts</li>
+            <li>❌ We do NOT track your location</li>
+            <li>❌ We do NOT access other health apps without your explicit permission</li>
+        </ul>
+
+        <h2>3. How We Use Your Information</h2>
+
+        <h3>3.1 To Provide the Service</h3>
+        <ul>
+            <li>Match you with a wellness archetype (K-Means clustering)</li>
+            <li>Personalize recommendations (RecBole content filtering)</li>
+            <li>Analyze 14-day patterns (LSTM behavioral analysis)</li>
+            <li>Power the AI chatbot (Llama 3 / BlenderBot)</li>
+            <li>Improve the adaptive quiz (Q-Learning optimization)</li>
+        </ul>
+
+        <h3>3.2 To Improve the Service</h3>
+        <ul>
+            <li>Analyze aggregated, anonymized usage data to improve AI models</li>
+            <li>Identify bugs and technical issues</li>
+            <li>Develop new features based on user needs</li>
+        </ul>
+
+        <h3>3.3 To Communicate With You</h3>
+        <ul>
+            <li>Send wellness tips and educational content (opt-in)</li>
+            <li>Notify you of new features or updates</li>
+            <li>Respond to your support requests</li>
+            <li>Send transactional emails (password resets, receipts)</li>
+        </ul>
+
+        <h3>3.4 What We Do NOT Do</h3>
+        <ul>
+            <li>❌ We do NOT sell your personal data to third parties</li>
+            <li>❌ We do NOT use your wellness data for advertising</li>
+            <li>❌ We do NOT share individual data with employers (B2B clients receive only aggregated, anonymized reports)</li>
+        </ul>
+
+        <h2>4. How We Share Your Information</h2>
+
+        <h3>4.1 Service Providers (Limited Access)</h3>
+        <ul>
+            <li><strong>Firebase (Google):</strong> Cloud infrastructure, authentication, database</li>
+            <li><strong>Stripe:</strong> Payment processing</li>
+            <li><strong>Google Cloud Run:</strong> ML model hosting</li>
+            <li><strong>Hugging Face:</strong> Chatbot API (messages are encrypted in transit)</li>
+        </ul>
+        <p><em>All service providers are bound by data processing agreements and cannot use your data for their own purposes.</em></p>
+
+        <h3>4.2 Legal Requirements</h3>
+        <p>We may disclose your information if required by law, such as:</p>
+        <ul>
+            <li>To comply with a subpoena or court order</li>
+            <li>To protect our legal rights or defend against legal claims</li>
+            <li>To prevent fraud or abuse of the Service</li>
+            <li>To protect the safety of users or the public</li>
+        </ul>
+
+        <h3>4.3 Business Transfers</h3>
+        <p>If Your Aura is acquired or merged with another company, your information may be transferred. We will notify you before your information becomes subject to a different privacy policy.</p>
+
+        <h2>5. Data Security</h2>
+
+        <h3>5.1 How We Protect Your Data</h3>
+        <ul>
+            <li><strong>Encryption:</strong> All data is encrypted in transit (TLS 1.3) and at rest (AES-256)</li>
+            <li><strong>Access Controls:</strong> Only authorized personnel can access user data (role-based access)</li>
+            <li><strong>Regular Audits:</strong> Security reviews and penetration testing</li>
+            <li><strong>Anonymization:</strong> Personal identifiers are removed from data used for AI training</li>
+        </ul>
+
+        <h3>5.2 Your Responsibility</h3>
+        <ul>
+            <li>Use a strong, unique password</li>
+            <li>Enable two-factor authentication (when available)</li>
+            <li>Do not share your account credentials</li>
+            <li>Log out on shared devices</li>
+        </ul>
+
+        <h2>6. Your Rights and Choices</h2>
+
+        <h3>6.1 Access Your Data</h3>
+        <p>You can view and download all your data: Settings → My Data → Export Data</p>
+
+        <h3>6.2 Correct Your Data</h3>
+        <p>You can edit your profile, quiz responses, and preferences anytime in Settings.</p>
+
+        <h3>6.3 Delete Your Data</h3>
+        <p>You can delete your account: Settings → Account → Delete Account</p>
+        <p><em>Note: Deletion is permanent and cannot be undone. Some data may be retained for legal compliance (e.g., payment records for tax purposes).</em></p>
+
+        <h3>6.4 Opt Out of Communications</h3>
+        <p>You can unsubscribe from marketing emails via the link in any email or in Settings → Notifications.</p>
+
+        <h3>6.5 Turn Off AI Features</h3>
+        <p>You can disable specific AI features: Settings → Features → [Toggle off]</p>
+
+        <h3>6.6 State-Specific Rights</h3>
+
+        <h4>California Residents (CCPA)</h4>
+        <p>You have the right to:</p>
+        <ul>
+            <li>Know what personal information we collect and how we use it</li>
+            <li>Request deletion of your personal information</li>
+            <li>Opt out of the "sale" of personal information (we do not sell data)</li>
+            <li>Non-discrimination for exercising your rights</li>
+        </ul>
+        <p>To exercise these rights, email <a href="mailto:privacy@youraura.io">privacy@youraura.io</a></p>
+
+        <h4>European Residents (GDPR)</h4>
+        <p>You have the right to:</p>
+        <ul>
+            <li>Access, correct, or delete your personal data</li>
+            <li>Restrict or object to processing</li>
+            <li>Data portability (export your data in a machine-readable format)</li>
+            <li>Withdraw consent at any time</li>
+            <li>Lodge a complaint with a supervisory authority</li>
+        </ul>
+        <p>To exercise these rights, email <a href="mailto:privacy@youraura.io">privacy@youraura.io</a></p>
+
+        <h2>7. Data Retention</h2>
+        <ul>
+            <li><strong>Active Accounts:</strong> We retain your data as long as your account is active</li>
+            <li><strong>Deleted Accounts:</strong> Data is permanently deleted within 30 days (except as required by law)</li>
+            <li><strong>Anonymized Data:</strong> Aggregated, anonymized data may be retained indefinitely for research and AI improvement</li>
+        </ul>
+
+        <h2>8. Children's Privacy</h2>
+        <p>Your Aura is not intended for users under 18. We do not knowingly collect data from children. If you believe a child has provided us with personal information, please contact us at <a href="mailto:privacy@youraura.io">privacy@youraura.io</a> and we will delete it.</p>
+
+        <h2>9. International Data Transfers</h2>
+        <p>Your data may be processed in the United States or other countries where our service providers operate. We ensure adequate safeguards are in place (e.g., Standard Contractual Clauses for EU data).</p>
+
+        <h2>10. Changes to This Privacy Policy</h2>
+        <p>We may update this Privacy Policy from time to time. We will notify you of material changes via:</p>
+        <ul>
+            <li>In-app notification</li>
+            <li>Email (if you've opted in)</li>
+            <li>Updated "Last Updated" date at the top of this policy</li>
+        </ul>
+        <p>Your continued use of the Service after changes constitutes acceptance of the new policy.</p>
+
+        <h2>11. Contact Us</h2>
+        <p>If you have questions about this Privacy Policy or want to exercise your rights, contact us:</p>
+        <ul>
+            <li><strong>Email:</strong> <a href="mailto:privacy@youraura.io">privacy@youraura.io</a></li>
+            <li><strong>Support:</strong> <a href="mailto:support@youraura.io">support@youraura.io</a></li>
+            <li><strong>Website:</strong> <a href="https://youraura.io">youraura.io</a></li>
+        </ul>
+
+        <h2>12. Transparency Commitment</h2>
+        <p>We believe you deserve to know exactly how your data is used. That's why we've created detailed <a href="ai-models.html">AI Model Cards</a> explaining how each of our 5 AI models works, what data they use, and their limitations.</p>
+        <p><strong>Your wellness data is yours. We're just here to help you understand it better.</strong> 💜</p>
+
+        <hr style="margin: 3rem 0;">
+        <p style="text-align: center;"><a href="index.html" class="back-link">← Back to Home</a></p>
+    </div>
+</body>
+</html>
+

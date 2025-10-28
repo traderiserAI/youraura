@@ -770,3 +770,61 @@ body {
     }
 }
 
+
+/* Additional styles for updated website */
+.savings-badge {
+    background: linear-gradient(135deg, #4CAF50, #2196F3);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin: 0.5rem 0;
+    display: inline-block;
+}
+
+.plan-badge {
+    background: #4CAF50;
+    color: white;
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.crisis-resources {
+    background: #fff3cd;
+    padding: 3rem 0;
+    margin: 4rem 0;
+}
+
+.crisis-box {
+    background: white;
+    border-left: 4px solid #ff9800;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.crisis-box h3 {
+    color: #ff9800;
+    margin-bottom: 1rem;
+}
+
+.crisis-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.crisis-box li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.crisis-box li:last-child {
+    border-bottom: none;
+}
